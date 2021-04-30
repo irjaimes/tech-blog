@@ -18,7 +18,12 @@ This application is a simple blog where the users can post and comment on others
 ### Installation
 To install all dependencies type `npm i` into the terminal.
 
-### Sample
+### App Screen Shots
+![sc1](/public/images/sc1.png)
+![sc2](/public/images/sc2.png)
+![sc3](/public/images/sc3.png)
+![sc4](/public/images/sc4.png)
+![sc5](/public/images/sc5.png)
 
 ### License
 ![badge](https://img.shields.io/badge/license-MIT-green)
