@@ -19,10 +19,17 @@ This application is a simple blog where the users can post and comment on others
 To install all dependencies type `npm i` into the terminal.
 
 ### App Screen Shots
+**Home Page**
+![sc01](/public/images/sc01.png)
+**Login/Signup Page**
 ![sc1](/public/images/sc1.png)
+**Dashboard Page**
 ![sc2](/public/images/sc2.png)
+**Edit Post Page**
 ![sc3](/public/images/sc3.png)
+**Home Page while LoggedIn**
 ![sc4](/public/images/sc4.png)
+**Comment/Upvote Page**
 ![sc5](/public/images/sc5.png)
 
 ### License
