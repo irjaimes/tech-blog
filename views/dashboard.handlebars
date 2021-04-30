@@ -1,6 +1,8 @@
-<section>
-  <h2 class="subtitle is-3">Create New Post</h2>
-
+<section class="create-post">
+  <center>
+  <h2 class="subtitle is-3" >Create New Post</h2>
+  </center>
+<div class="is-primary">
   <form class="box new-post-form">
     <div>
       <label for="post-title">Title</label>
@@ -12,23 +14,25 @@
     </div>
     <button type="submit" class="button is-info">Create</button>
   </form>
+  </div>
 </section>
 
+
 <div class="container is-widescreen">
-  <div class="notification is-primary">
     {{#if posts.length}}
     <section>
-      <h2 class="post-header">Your Posts</h2>
-      <ol>
+      <h2 class="post-header">Your Previous Posts</h2>
+      <ul>
         {{#each posts as |post|}}
         <li>
           {{> post-info post}}
-          <a href="/dashboard/edit/{{post.id}}" class="edit-link button is-link">Edit post</a>
+          <a href="/dashboard/edit/{{post.id}}" class="edit-link button is-primary is-link">Edit post</a>
         </li>
         {{/each}}
-      </ol>
+      </ul>
     </section>
     {{/if}}
-  </div>
 </div>
+
+
 <script src="/javascript/add-post.js"></script>

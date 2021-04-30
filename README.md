@@ -1,9 +1,10 @@
 # tech-blog
 
 ### Description
-This application is a simple blog where the user can post and comment on others' posts. Using api endpoints and sequelize this application allows for multiple users to log-in and create multiple posts. It also allows them to comment on others's posts. The person posting is also able to edit and delete their own posts. Also, in place is an idle/timeout for a user's session set to one minute to save server time.
+This application is a simple blog where the users can post and comment on others' posts. Using api endpoints and sequelize this application allows for multiple users to create an account, login, and create multiple posts. The users are able to edit/delete their own posts, comment on other posts, and upvote posts.
 
-The site is live [here](....)
+
+ The live is served through [Heroku](https://www.heroku.com/) and is available [here](https://limitless-shore-56034.herokuapp.com/)
 
 
 ### Table of Contents 
@@ -17,13 +18,15 @@ The site is live [here](....)
 ### Installation
 To install all dependencies type `npm i` into the terminal.
 
-## License
-[MIT License](https://spdx.org/licenses/MIT.html)![badge](https://img.shields.io/badge/license-MIT-green)
+### Sample
+
+### License
+![badge](https://img.shields.io/badge/license-MIT-green)
 
 ### Contributing
 Idzel Jaimes
 
 ### Questions
 For any questions, please feel free to contact me.
-  * Github Username: [irjaimes](....)
+  * Github Username: [irjaimes](https://github.com/irjaimes/tech-blog)
   * Email : irjaimes@outlook.com
